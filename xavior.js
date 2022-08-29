@@ -1,4 +1,4 @@
-// Klo Udah Di Kasih Free Minimal Nama Yutup SanoMd Ditaruh Yah :)
+// Klo Udah Di Kasih Free Minimal Nama Yutup XaviorOfc Ditaruh Yah :)
 
 require('./config')
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
@@ -534,12 +534,12 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
   goblok = fs.readFileSync('./video/ga.jpg')
-                xavior.sendMessage(m.chat, { image: goblok, caption: `*Halo Bre 😁*\n\n Bot Rental Prices\n⭔ 15k Per Group via Shoppepay 1 Month\n⭔ 20k via pulsa 1 Month\n\n\nhttps://wa.me/6282239202895 (Owner)\n\nDonate For Me : \n\n⭔ Saweria : https://saweria.co/kimhcibotz` }, { quoted: m })
+                xavior.sendMessage(m.chat, { image: goblok, caption: `*Halo Bre 😁*\n\n Bot Rental Prices\n⭔ 15k Per Group via Shoppepay 1 Month\n⭔ 20k via pulsa 1 Month\n\n\nhttps://wa.me/6281908052908 (Owner)\n\nDonate For Me : \n\n⭔ Saweria : https://saweria.co/nanang13` }, { quoted: m })
             }
             case 'subscribe':{
             smeme = fs.readFileSync('./video/bro.mp4')
 
-xavior.sendMessage(m.chat, { video: smeme, mimetype: 'video/mp4', fileName: `subrek.mp4`, caption: `Betewe Lu Dah Janji Mau Subscribe\n\nJangan PHP Yah 😊\n\nSubscibe:https://youtube.com/c/lilpepbotz `},{ quoted: m })} break
+xavior.sendMessage(m.chat, { video: smeme, mimetype: 'video/mp4', fileName: `subrek.mp4`, caption: `Betewe Lu Dah Janji Mau Subscribe\n\nJangan PHP Yah 😊\n\nSubscibe:https://youtube.com/c/XaviorOfc-Bot`},{ quoted: m })} break
 
 case 'runtime': { m.reply('4 days, 9 hours, 26 minutes')}
           break
@@ -554,7 +554,7 @@ xavior.sendMessage(m.chat, {audio: goblok, mimetype:'audio/mpeg', ptt:true }, {q
             case 'session': {
             if (!isCreator) throw mess.owner
             ana = fs.readFileSync('./Xavior.json')
-              m.reply('*Woe Bre Minimal Subscribe Yt SanoMd Lah*')
+              m.reply('*Woe Bre Minimal Subscribe Yt XaviorOfc Lah*')
             xavior.sendMessage(m.chat, {document: ana, mimetype: 'application/json', fileName: `Xavior.json`}, {quoted:m})}
             break
             
@@ -860,7 +860,7 @@ xavior.sendMessage(m.chat, { video: smeme, mimetype: 'video/mp4', fileName: `Int
             break
             case 'namafotobot|subscribe': {
              if (!isCreator) throw mess.owner
-             xavior.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74fd634010128be37972c.jpg' }, caption: `Foto menu Berhasil Diganti\n\nHei Lord *SanoMd*..🙏\n\nJangan Sering Sering Ubah Fot Bot Yah🗿` }, { quoted: m })
+             xavior.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74fd634010128be37972c.jpg' }, caption: `Foto menu Berhasil Diganti\n\nHei Lord *XaviorOfc*..🙏\n\nJangan Sering Sering Ubah Fot Bot Yah🗿` }, { quoted: m })
             } break
             
            case 'setppgroup': case 'setppgrup': case 'setppgc': {
@@ -1227,8 +1227,8 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/c/lilpepbotz '
+                                    displayText: 'Grup',
+                                    url: 'https://chat.whatsapp.com/Fapstp9Z1xQL3NpYPdLpnH'
                                 }
                             }, {
                                 callButton: {
@@ -1247,7 +1247,7 @@ break
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Script',
+                                    displayText: 'Grup',
                                     id: 'noenc'
                                 }
                             }]
@@ -1259,15 +1259,15 @@ break
             break
             case 'bc': case 'broadcast': case 'bcall': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Text mana?\n\nContoh : ${prefix + command} Subscribe Yt SanoMd`
+                if (!text) throw `Text mana?\n\nContoh : ${prefix + command} Subscribe Yt XaviorOfc`
                 let anu = await store.chats.all().map(v => v.id)
                 m.reply(`Mengirim Broadcast Ke ${anu.length} Chat\nWaktu Selesai ${anu.length * 1.5} detik`)
 		for (let yoi of anu) {
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/c/lilpepbotz '
+                                    displayText: 'Grup',
+                                    url: 'https://chat.whatsapp.com/Fapstp9Z1xQL3NpYPdLpnH'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1281,7 +1281,7 @@ break
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Script',
+                                    displayText: 'Grup',
                                     id: 'noenc'
                                 }
                             }]
@@ -1629,11 +1629,11 @@ break
                     image: { url: anu.thumbnail },
                     caption: `
 ⭔ *Title* : Tutor Buat Bot Seperti Di Gc 🗿
-⭔ *No Wa*: 082239202895
+⭔ *No Wa*: 081908052908
 ⭔ *Duration* : 24Hours
 ⭔ *Viewers* : 14M views
 ⭔ *Upload* At : 1 years ago
-⭔ *Author* : SanoMd 
+⭔ *Author* : XaviorOfc 
 ⭔ *Channel* : ${anu.author.url}
 ⭔ *Description* : Gak Subrek Bot Mati!
 ⭔ *Url* : ${anu.url}`,
@@ -2808,7 +2808,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     footerText: "Njir masih dibaca",
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "🤖Bot By SanoMd🤖",
+								"title": "🤖Bot By XaviorOfc🤖",
 								"rows": [
 									{
 										"title": "▪️Tutor Pasang Bot",
@@ -2906,7 +2906,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Owner 👨‍💻",
 								"rows": [
 									{
-										"title": "SanoMd",
+										"title": "XaviorOfc",
 										"rowId": `${prefix}owner`
 									
 									}]
@@ -2919,10 +2919,10 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             break
 
             
-            case 'okay': { m.reply('Subrek lah Yt SanoMd')} break
+            case 'okay': { m.reply('Subrek lah Yt XaviorOfc')} break
             
              case 'menu': {
-            anu = `Hallo Bre... 🤗\nSalken Bre, Gua *Xavior*🤝\nGua Bot WhatsApp MD Bre..\nBot WA MD V3 Dari *SanoMd* Bre\nInfo Lanjut Dengerin VN nya Bre`
+            anu = `Hallo Bre... 🤗\nSalken Bre, Gua *Xavior*🤝\nGua Bot WhatsApp MD Bre..\nBot WA MD V3 Dari *XaviorOfc* Bre\nInfo Lanjut Dengerin VN nya Bre`
             let btn = [{
                                 
                                 quickReplyButton: {
@@ -2978,8 +2978,8 @@ break
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/c/lilpepbotz '
+                                    displayText: 'Grup',
+                                    url: 'https://chat.whatsapp.com/Fapstp9Z1xQL3NpYPdLpnH'
                                 }
                             }, {
                                 callButton: {
@@ -3033,8 +3033,8 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/c/lilpepbotz '
+                                    displayText: 'Grup',
+                                    url: 'https://chat.whatsapp.com/Fapstp9Z1xQL3NpYPdLpnH'
                                 }
                             }, {
                                 callButton: {
@@ -3094,8 +3094,8 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/c/lilpepbotz '
+                                    displayText: 'Grup',
+                                    url: 'https://chat.whatsapp.com/Fapstp9Z1xQL3NpYPdLpnH'
                                 }
                             }, {
                                 callButton: {
@@ -3150,8 +3150,8 @@ case 'webzone': {
 └───────⭓`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/c/lilpepbotz '
+                                    displayText: 'Grup',
+                                    url: 'https://chat.whatsapp.com/Fapstp9Z1xQL3NpYPdLpnH'
                                 }
                             }, {
                                 callButton: {
@@ -3214,8 +3214,8 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/c/lilpepbotz '
+                                    displayText: 'Grup',
+                                    url: 'https://chat.whatsapp.com/Fapstp9Z1xQL3NpYPdLpnH'
                                 }
                             }, {
                                 callButton: {
@@ -3292,8 +3292,8 @@ case 'webzone': {
 └───────⭓`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/c/lilpepbotz '
+                                    displayText: 'Grup',
+                                    url: 'https://chat.whatsapp.com/Fapstp9Z1xQL3NpYPdLpnH'
                                 }
                             }, {
                                 callButton: {
@@ -3351,8 +3351,8 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/c/lilpepbotz '
+                                    displayText: 'Grup',
+                                    url: 'https://chat.whatsapp.com/Fapstp9Z1xQL3NpYPdLpnH'
                                 }
                             }, {
                                 callButton: {
@@ -3407,8 +3407,8 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/c/lilpepbotz '
+                                    displayText: 'Grup',
+                                    url: 'https://chat.whatsapp.com/Fapstp9Z1xQL3NpYPdLpnH'
                                 }
                             }, {
                                 callButton: {
@@ -3468,8 +3468,8 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/c/lilpepbotz'
+                                    displayText: 'Grup',
+                                    url: 'https://chat.whatsapp.com/Fapstp9Z1xQL3NpYPdLpnH'
                                 }
                             }, {
                                 callButton: {
@@ -3545,8 +3545,8 @@ case 'webzone': {
 └───────⭓`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/c/lilpepbotz '
+                                    displayText: 'Grup',
+                                    url: 'https://chat.whatsapp.com/Fapstp9Z1xQL3NpYPdLpnH'
                                 }
                             }, {
                                 callButton: {
@@ -3610,8 +3610,8 @@ case 'webzone': {
 └───────⭓`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/c/lilpepbotz '
+                                    displayText: 'Grup',
+                                    url: 'https://chat.whatsapp.com/Fapstp9Z1xQL3NpYPdLpnH'
                                 }
                             }, {
                                 callButton: {
@@ -3667,8 +3667,8 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/c/lilpepbotz '
+                                    displayText: 'Grup',
+                                    url: 'https://chat.whatsapp.com/Fapstp9Z1xQL3NpYPdLpnH'
                                 }
                             }, {
                                 callButton: {
@@ -3722,8 +3722,8 @@ case 'webzone': {
 └───────⭓`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/c/lilpepbotz '
+                                    displayText: 'Grup',
+                                    url: 'https://chat.whatsapp.com/Fapstp9Z1xQL3NpYPdLpnH'
                                 }
                             }, {
                                 callButton: {
@@ -3772,8 +3772,8 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/c/lilpepbotz '
+                                    displayText: 'Grup',
+                                    url: 'https://chat.whatsapp.com/Fapstp9Z1xQL3NpYPdLpnH'
                                 }
                             }, {
                                 callButton: {
@@ -3823,8 +3823,8 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/c/lilpepbotz '
+                                    displayText: 'Grup',
+                                    url: 'https://chat.whatsapp.com/Fapstp9Z1xQL3NpYPdLpnH'
                                 }
                             }, {
                                 callButton: {
@@ -3881,8 +3881,8 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/c/lilpepbotz '
+                                    displayText: 'Grup',
+                                    url: 'https://chat.whatsapp.com/Fapstp9Z1xQL3NpYPdLpnH'
                                 }
                             }, {
                                 callButton: {
@@ -3942,8 +3942,8 @@ case 'webzone': {
 └───────⭓`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/c/lilpepbotz '
+                                    displayText: 'Grup',
+                                    url: 'https://chat.whatsapp.com/Fapstp9Z1xQL3NpYPdLpnH'
                                 }
                             }, {
                                 callButton: {
