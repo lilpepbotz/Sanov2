@@ -2922,7 +2922,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             case 'okay': { m.reply('Subrek lah Yt SanoMd')} break
             
              case 'menu': {
-            anu = `Hallo Bre... 🤗\nSalken Bre, Gua *Xavior*🤝\nGua Bot WhatsApp MD Bre..\nBot WA MD V3 Dari *SanoMd* Bre\nInfo Lanjut Dengerin VN nya Bre`
+            anu = `Hallo Bre... 🤗\nSalken Bre, Gua *Sano*🤝\nGua Bot WhatsApp Bre..\nBot WA MD Dari *SanoMd* Bre\nInfo Lanjut Dengerin VN nya Bre`
             let btn = [{
                                 
                                 quickReplyButton: {
